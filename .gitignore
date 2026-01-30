@@ -1,0 +1,4 @@
+.env            # 環境設定檔
+.config         # 配置檔案
+.DS_Store       # macOS Finder 產生的檔案
+app.log         # 名叫 app 的 log 檔案
