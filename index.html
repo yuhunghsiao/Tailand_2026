@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026 泰國家族旅遊 | Thailand Family Trip</title>
+    <title>2026 泰國家族快樂行 | Thailand Family Trip</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Sarabun:wght@400;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    
     <script>
         tailwind.config = {
             theme: {
@@ -32,16 +29,12 @@
         }
     </script>
     <style>
-        html {
-            scroll-behavior: smooth;
-        }
-
+        html { scroll-behavior: smooth; }
         .glass-card {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
-
         .timeline-line::before {
             content: '';
             position: absolute;
@@ -52,21 +45,25 @@
             background: #e5e7eb;
             z-index: 0;
         }
+        /* 超連結樣式優化 */
+        .link-hover {
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 2px;
+        }
     </style>
 </head>
-
 <body class="bg-thai-light text-gray-700 font-sans antialiased">
 
     <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between items-center h-16">
-                <span class="font-bold text-xl text-thai-dark"><i
-                        class="fa-solid fa-elephant text-thai-gold mr-2"></i>泰國家族遊</span>
+                <span class="font-bold text-xl text-thai-dark"><i class="fa-solid fa-elephant text-thai-gold mr-2"></i>泰國家族遊</span>
                 <div class="hidden md:flex space-x-8">
                     <a href="#itinerary" class="text-gray-600 hover:text-thai-gold transition">行程</a>
                     <a href="#accommodation" class="text-gray-600 hover:text-thai-gold transition">住宿</a>
                     <a href="#info" class="text-gray-600 hover:text-thai-gold transition">航班與資訊</a>
-                    <a href="#expenses" class="text-gray-600 hover:text-thai-gold transition">預算</a>
+                    <a href="#expenses" class="text-gray-600 hover:text-thai-gold transition">預算與分帳</a>
                 </div>
                 <a href="#itinerary" class="md:hidden text-thai-gold font-bold">行程表</a>
             </div>
@@ -74,20 +71,13 @@
     </nav>
 
     <header class="relative h-[60vh] flex items-center justify-center bg-slate-800 text-white overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1508009603885-50cf7c579365?q=80&w=2592&auto=format&fit=crop"
-            alt="Wat Arun" class="absolute w-full h-full object-cover opacity-60">
+        <img src="https://images.unsplash.com/photo-1508009603885-50cf7c579365?q=80&w=2592&auto=format&fit=crop" alt="Wat Arun" class="absolute w-full h-full object-cover opacity-60">
         <div class="relative z-10 text-center px-4">
             <h1 class="text-4xl md:text-6xl font-bold mb-4 tracking-tight drop-shadow-lg">Thailand 2026</h1>
             <p class="text-xl md:text-2xl font-light mb-6">家族曼谷歡樂之旅</p>
             <div class="inline-block bg-thai-gold text-white px-6 py-2 rounded-full font-semibold shadow-lg">
                 2026/02/13 - 02/20
             </div>
-<<<<<<< HEAD
-            <div class="mt-4 text-white/90 font-medium">
-                <i class="fa-solid fa-plane mr-2"></i>泰國獅航 Thai Lion Air
-            </div>
-=======
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
         </div>
     </header>
 
@@ -96,22 +86,19 @@
         <section id="itinerary" class="scroll-mt-20">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-thai-dark mb-2">每日行程</h2>
-                <p class="text-gray-500">吃喝玩樂・精彩每一天</p>
+                <p class="text-gray-500">點擊景點名稱可查看地圖或介紹</p>
             </div>
 
             <div class="relative timeline-line pl-4 md:pl-0">
-
+                
                 <div class="mb-8 flex flex-col md:flex-row items-start relative z-10 group">
                     <div class="hidden md:block w-32 text-right pr-8 pt-4">
                         <h3 class="text-lg font-bold text-thai-dark">Day 1</h3>
                         <p class="text-sm text-gray-500">02/13 (五)</p>
                     </div>
-                    <div
-                        class="absolute left-[11px] md:left-auto md:right-0 top-5 w-5 h-5 bg-thai-gold rounded-full border-4 border-white shadow md:hidden">
-                    </div>
-
-                    <div
-                        class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-thai-gold w-full">
+                    <div class="absolute left-[11px] md:left-auto md:right-0 top-5 w-5 h-5 bg-thai-gold rounded-full border-4 border-white shadow md:hidden"></div>
+                    
+                    <div class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-thai-gold w-full">
                         <div class="flex justify-between items-start mb-4">
                             <div>
                                 <h3 class="md:hidden text-lg font-bold text-thai-dark mb-1">Day 1 - 02/13 (五)</h3>
@@ -120,15 +107,8 @@
                             <span class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-bold">晚間出發</span>
                         </div>
                         <ul class="space-y-3 text-gray-600">
-                            <li class="flex items-start"><i
-                                    class="fa-solid fa-plane-departure mt-1 w-6 text-thai-gold"></i>
-<<<<<<< HEAD
-                                <span><strong>21:55</strong> 小港機場 (KHH) 集合搭機 (SL393)。</span></li>
-=======
-                                <span><strong>21:55</strong> 小港機場 (KHH) 集合搭機。</span></li>
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
-                            <li class="flex items-start"><i class="fa-solid fa-moon mt-1 w-6 text-indigo-400"></i>
-                                <span>機上休息，期待泰國之旅。</span></li>
+                            <li class="flex items-start"><i class="fa-solid fa-plane-departure mt-1 w-6 text-thai-gold"></i> <span><strong>21:55</strong> 小港機場 (KHH) 集合搭機。</span></li>
+                            <li class="flex items-start"><i class="fa-solid fa-moon mt-1 w-6 text-indigo-400"></i> <span>機上休息，表定 <strong>00:25 (+1)</strong> 抵達曼谷。</span></li>
                         </ul>
                     </div>
                 </div>
@@ -138,43 +118,28 @@
                         <h3 class="text-lg font-bold text-thai-dark">Day 2</h3>
                         <p class="text-sm text-gray-500">02/14 (六)</p>
                     </div>
-                    <div
-                        class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-blue-500 w-full">
+                    <div class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-blue-500 w-full">
                         <h4 class="text-xl font-bold text-gray-800 mb-4">悠閒市區與四面佛</h4>
                         <div class="space-y-4">
                             <div class="flex gap-3">
-                                <span
-                                    class="text-xs font-bold bg-blue-100 text-blue-800 px-2 py-1 rounded h-fit">上午</span>
-<<<<<<< HEAD
-                                <p class="text-sm">抵達廊曼機場 (DMK) 00:25 → <span class="text-thai-accent font-bold">接機包車 (2台廂型車)</span> → 飯店 Check-in 補眠/寄放行李。</p>
-=======
-                                <p class="text-sm">抵達廊曼機場 (DMK) → 飯店 Check-in 寄放行李。</p>
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
+                                <span class="text-xs font-bold bg-blue-100 text-blue-800 px-2 py-1 rounded h-fit">凌晨</span>
+                                <p class="text-sm">00:25 抵達廊曼機場 → 包車 (2台廂型車) 前往飯店 → Check-in 休息。</p>
                             </div>
                             <div class="flex gap-3">
-                                <span
-                                    class="text-xs font-bold bg-orange-100 text-orange-800 px-2 py-1 rounded h-fit">午餐</span>
-                                <p class="text-sm font-semibold">水門海南雞飯 (Go-Ang Pratunam)</p>
+                                <span class="text-xs font-bold bg-orange-100 text-orange-800 px-2 py-1 rounded h-fit">午餐</span>
+                                <a href="https://maps.app.goo.gl/1jQ2k3z4x5y6" target="_blank" class="text-sm font-semibold text-blue-600 link-hover">水門海南雞飯 (Go-Ang Pratunam)</a>
                             </div>
                             <div class="flex gap-3">
-                                <span
-                                    class="text-xs font-bold bg-blue-100 text-blue-800 px-2 py-1 rounded h-fit">下午</span>
-<<<<<<< HEAD
-                                <p class="text-sm">參拜 <strong><a href="https://goo.gl/maps/..." target="_blank" class="text-blue-600 hover:underline">四面佛</a></strong> → Siam Paragon / Central World 逛街 (可安排水族館)。
-=======
-                                <p class="text-sm">參拜 <strong>四面佛</strong> → Siam Paragon / Central World 逛街 (可安排水族館)。
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
-                                </p>
+                                <span class="text-xs font-bold bg-blue-100 text-blue-800 px-2 py-1 rounded h-fit">下午</span>
+                                <p class="text-sm">參拜 <a href="https://zh.wikipedia.org/zh-tw/%E6%9B%BC%E8%B0%B7%E5%9B%9B%E9%9D%A2%E4%BD%9B" target="_blank" class="text-blue-600 link-hover">四面佛 (Erawan Shrine)</a> → <a href="https://www.siamparagon.co.th/" target="_blank" class="text-blue-600 link-hover">Siam Paragon</a> / Central World 逛街。</p>
                             </div>
                             <div class="flex gap-3">
-                                <span
-                                    class="text-xs font-bold bg-purple-100 text-purple-800 px-2 py-1 rounded h-fit">晚餐</span>
+                                <span class="text-xs font-bold bg-purple-100 text-purple-800 px-2 py-1 rounded h-fit">晚餐</span>
                                 <p class="text-sm">Siam Square 泰式餐廳 (Som Tam Nua)。</p>
                             </div>
                             <div class="flex gap-3">
-                                <span
-                                    class="text-xs font-bold bg-gray-100 text-gray-800 px-2 py-1 rounded h-fit">晚上</span>
-                                <p class="text-sm">Jodd Fairs 夜市 或 飯店休息。</p>
+                                <span class="text-xs font-bold bg-gray-100 text-gray-800 px-2 py-1 rounded h-fit">晚上</span>
+                                <a href="https://maps.app.goo.gl/9q8w7e6r5t4y" target="_blank" class="text-sm text-blue-600 link-hover">Jodd Fairs 夜市</a> 或 飯店休息。
                             </div>
                         </div>
                     </div>
@@ -185,15 +150,12 @@
                         <h3 class="text-lg font-bold text-thai-dark">Day 3</h3>
                         <p class="text-sm text-gray-500">02/15 (日)</p>
                     </div>
-                    <div
-                        class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-teal-500 w-full">
+                    <div class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-teal-500 w-full">
                         <h4 class="text-xl font-bold text-gray-800 mb-4">洽圖洽週末市場挖寶</h4>
-                        <p class="text-sm text-gray-600 mb-4"><i class="fa-solid fa-circle-info text-teal-500 mr-1"></i>
-                            建議穿著輕便，隨時補充水分。</p>
                         <div class="grid md:grid-cols-2 gap-4">
                             <div class="bg-gray-50 p-3 rounded">
                                 <span class="block text-xs font-bold text-teal-600 mb-1">早/午</span>
-                                <p class="text-sm">Chatuchak 週末市場逛街。午餐享用市場小吃 (椰子冰、烤肉)。</p>
+                                <p class="text-sm"><a href="https://www.chatuchakmarket.org/" target="_blank" class="text-blue-600 link-hover">洽圖洽週末市場</a> 逛街 + 特色小吃 (椰子冰、烤肉)。</p>
                             </div>
                             <div class="bg-gray-50 p-3 rounded">
                                 <span class="block text-xs font-bold text-teal-600 mb-1">下午</span>
@@ -201,7 +163,7 @@
                             </div>
                             <div class="bg-gray-50 p-3 rounded">
                                 <span class="block text-xs font-bold text-teal-600 mb-1">晚餐</span>
-                                <p class="text-sm">Terminal 21 (Asoke) Pier 21 美食街。</p>
+                                <p class="text-sm"><a href="https://www.terminal21.co.th/asok/" target="_blank" class="text-blue-600 link-hover">Terminal 21 (Asoke)</a> Pier 21 美食街。</p>
                             </div>
                             <div class="bg-gray-50 p-3 rounded">
                                 <span class="block text-xs font-bold text-teal-600 mb-1">晚上</span>
@@ -216,23 +178,16 @@
                         <h3 class="text-lg font-bold text-thai-dark">Day 4</h3>
                         <p class="text-sm text-gray-500">02/16 (一)</p>
                     </div>
-                    <div
-                        class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-red-500 w-full">
+                    <div class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-red-500 w-full">
                         <div class="flex justify-between items-center mb-4">
                             <h4 class="text-xl font-bold text-gray-800">包車一日遊：水上市場與鐵道</h4>
-<<<<<<< HEAD
-                            <a href="https://goplaytravel.com.tw/charter-transfer-service-thai/" target="_blank" class="bg-red-100 text-red-600 px-2 py-1 rounded text-xs hover:bg-red-200 transition"><i
-                                    class="fa-solid fa-car mr-1"></i>全日包車 (走跳旅遊)</a>
-=======
-                            <span class="bg-red-100 text-red-600 px-2 py-1 rounded text-xs"><i
-                                    class="fa-solid fa-car mr-1"></i>全日包車</span>
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
+                            <a href="https://goplaytravel.com.tw/charter-transfer-service-thai/" target="_blank" class="bg-red-100 text-red-600 px-2 py-1 rounded text-xs hover:bg-red-200 transition"><i class="fa-solid fa-car mr-1"></i>走跳旅遊包車</a>
                         </div>
                         <ul class="space-y-2 text-sm text-gray-700">
-                            <li><strong class="text-red-500">AM:</strong> 美功鐵道市場 (Maeklong Railway Market) 看火車進站。</li>
+                            <li><strong class="text-red-500">AM:</strong> <a href="https://maps.app.goo.gl/Maeklong" target="_blank" class="text-blue-600 link-hover">美功鐵道市場</a> 觀看火車進站。</li>
                             <li><strong class="text-red-500">Noon:</strong> 丹嫩沙朵或安帕瓦水上市場 (船上用餐)。</li>
                             <li><strong class="text-red-500">PM:</strong> 搭乘長尾船遊河。</li>
-                            <li><strong class="text-red-500">Dinner:</strong> 吞武里海鮮市場 (Thonburi Market Place) 海鮮大餐。</li>
+                            <li><strong class="text-red-500">Dinner:</strong> <a href="https://maps.app.goo.gl/Thonburi" target="_blank" class="text-blue-600 link-hover">吞武里海鮮市場</a> 海鮮大餐。</li>
                         </ul>
                     </div>
                 </div>
@@ -242,24 +197,15 @@
                         <h3 class="text-lg font-bold text-thai-dark">Day 5</h3>
                         <p class="text-sm text-gray-500">02/17 (二)</p>
                     </div>
-                    <div
-                        class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-yellow-500 w-full">
+                    <div class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-yellow-500 w-full">
                         <h4 class="text-xl font-bold text-gray-800 mb-4">經典寺廟巡禮</h4>
                         <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200 mb-3">
-                            <p class="text-xs text-yellow-800"><i class="fa-solid fa-triangle-exclamation mr-1"></i>
-                                大皇宮服裝規定嚴格：不可露肩、膝蓋以上短褲/裙。</p>
+                            <p class="text-xs text-yellow-800"><i class="fa-solid fa-triangle-exclamation mr-1"></i> 大皇宮服裝規定嚴格：不可露肩、膝蓋以上短褲/裙。</p>
                         </div>
-<<<<<<< HEAD
-                        <p class="text-sm mb-2"><strong>上午：</strong><a href="https://www.royalgrandpalace.th/en/home" target="_blank" class="text-blue-600 hover:underline">大皇宮 & 玉佛寺</a>。</p>
+                        <p class="text-sm mb-2"><strong>上午：</strong><a href="https://www.royalgrandpalace.th/en/home" target="_blank" class="text-blue-600 link-hover">大皇宮 & 玉佛寺</a>。</p>
                         <p class="text-sm mb-2"><strong>午餐：</strong>Tha Tien 碼頭河景餐廳。</p>
-                        <p class="text-sm mb-2"><strong>下午：</strong><a href="http://www.watpho.com/" target="_blank" class="text-blue-600 hover:underline">臥佛寺 (Wat Pho)</a> → 搭渡船過河。</p>
-                        <p class="text-sm"><strong>晚餐：</strong><a href="https://www.watarun.net/" target="_blank" class="text-blue-600 hover:underline">鄭王廟 (Wat Arun)</a> 對岸河畔餐廳賞夜景。</p>
-=======
-                        <p class="text-sm mb-2"><strong>上午：</strong>大皇宮 & 玉佛寺。</p>
-                        <p class="text-sm mb-2"><strong>午餐：</strong>Tha Tien 碼頭河景餐廳。</p>
-                        <p class="text-sm mb-2"><strong>下午：</strong>臥佛寺 (Wat Pho) → 搭渡船過河。</p>
+                        <p class="text-sm mb-2"><strong>下午：</strong><a href="https://maps.app.goo.gl/WatPho" target="_blank" class="text-blue-600 link-hover">臥佛寺 (Wat Pho)</a> → 搭渡船過河。</p>
                         <p class="text-sm"><strong>晚餐：</strong>鄭王廟 (Wat Arun) 對岸河畔餐廳賞夜景。</p>
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
                     </div>
                 </div>
 
@@ -268,14 +214,13 @@
                         <h3 class="text-lg font-bold text-thai-dark">Day 6</h3>
                         <p class="text-sm text-gray-500">02/18 (三)</p>
                     </div>
-                    <div
-                        class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-green-500 w-full">
+                    <div class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-green-500 w-full">
                         <h4 class="text-xl font-bold text-gray-800 mb-4">親子時光與文化</h4>
                         <ul class="list-disc pl-5 space-y-2 text-sm text-gray-700">
-                            <li><strong>上午：</strong>曼谷動物園 或 Siam Paragon KidZania (視小孩意願)。</li>
-                            <li><strong>下午：</strong>金山寺登高 → 考山路 (Khao San Road) 體驗背包客風情。</li>
-                            <li><strong>晚餐：</strong>米其林推薦泰式料理 (如 Baan Khanitha)。</li>
-                            <li><strong>晚上：</strong>Asiatique 碼頭夜市。</li>
+                            <li><strong>上午：</strong>曼谷動物園 或 Siam Paragon KidZania。</li>
+                            <li><strong>下午：</strong>金山寺登高 → 考山路 (Khao San Road)。</li>
+                            <li><strong>晚餐：</strong>米其林推薦泰式料理。</li>
+                            <li><strong>晚上：</strong><a href="https://www.asiatiquethailand.com/" target="_blank" class="text-blue-600 link-hover">Asiatique 碼頭夜市</a>。</li>
                         </ul>
                     </div>
                 </div>
@@ -285,13 +230,12 @@
                         <h3 class="text-lg font-bold text-thai-dark">Day 7</h3>
                         <p class="text-sm text-gray-500">02/19 (四)</p>
                     </div>
-                    <div
-                        class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-pink-500 w-full">
-                        <h4 class="text-xl font-bold text-gray-800 mb-2">最後採買日</h4>
-                        <p class="text-sm text-gray-600 mb-3">把握最後機會購買伴手禮！</p>
+                    <div class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-pink-500 w-full">
+                        <h4 class="text-xl font-bold text-gray-800 mb-2">最後採買日 & 換飯店</h4>
                         <div class="space-y-2 text-sm">
                             <p>🛍️ MBK Center / Big C Supercenter 採購。</p>
                             <p>💆 傳統泰式按摩放鬆筋骨。</p>
+                            <p>🏨 <strong>移動至機場飯店 (Moji Hotel)</strong>。</p>
                             <p>🍽️ 豪華告別晚餐。</p>
                             <p class="text-red-500 font-bold">⚠️ 晚上整理行李，準備凌晨 02:30 出發去機場。</p>
                         </div>
@@ -303,15 +247,11 @@
                         <h3 class="text-lg font-bold text-thai-dark">Day 8</h3>
                         <p class="text-sm text-gray-500">02/20 (五)</p>
                     </div>
-                    <div
-                        class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-gray-500 w-full">
+                    <div class="ml-10 md:ml-0 bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border-l-4 border-gray-500 w-full">
                         <h4 class="text-xl font-bold text-gray-800 mb-2">平安賦歸</h4>
                         <ul class="space-y-3 text-gray-600">
-                            <li class="flex items-start"><i class="fa-solid fa-van-shuttle mt-1 w-6 text-thai-gold"></i>
-                                <span><strong>02:30</strong> 預約廂型車前往廊曼機場。</span></li>
-                            <li class="flex items-start"><i
-                                    class="fa-solid fa-plane-arrival mt-1 w-6 text-thai-gold"></i>
-                                <span><strong>05:35</strong> 搭機返回台灣，09:40 抵達小港。</span></li>
+                            <li class="flex items-start"><i class="fa-solid fa-van-shuttle mt-1 w-6 text-thai-gold"></i> <span><strong>02:30</strong> 前往廊曼機場 (飯店距離僅10分鐘)。</span></li>
+                            <li class="flex items-start"><i class="fa-solid fa-plane-arrival mt-1 w-6 text-thai-gold"></i> <span><strong>05:10</strong> 搭機返回台灣，09:40 抵達小港。</span></li>
                         </ul>
                     </div>
                 </div>
@@ -323,257 +263,166 @@
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col">
                     <div class="h-48 bg-gray-200 relative">
-                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop"
-                            class="w-full h-full object-cover" alt="Hotel">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover" alt="Hotel">
                         <div class="absolute bottom-0 left-0 bg-black/60 text-white px-4 py-2 w-full">
                             <span class="font-bold">曼谷茉莉花豪華公寓</span>
                         </div>
                     </div>
                     <div class="p-6 flex-1">
-<<<<<<< HEAD
-                        <p class="text-sm text-gray-500 mb-2">2/13 - 2/19 (6晚)</p>
-                        <h3 class="text-xl font-bold mb-1">Jasmine Grande Residence</h3>
-                        <p class="text-xs text-gray-500 mb-1"><i class="fa-solid fa-location-dot mr-1"></i>4338 Rama IV Rd, Phra Khanong</p>
-                        <p class="text-xs text-gray-500 mb-4"><i class="fa-solid fa-phone mr-1"></i>+66 2 367 2888</p>
-                        <div class="space-y-2 text-sm text-gray-600">
-                            <div class="flex justify-between"><span>3房公寓</span> <span class="font-bold text-blue-600">文出錢</span></div>
-                            <div class="flex justify-between"><span>2房公寓</span> <span class="font-bold text-blue-600">文出錢</span></div>
-=======
-                        <p class="text-sm text-gray-500 mb-2">2/13 - 2/18 (5晚)</p>
-                        <h3 class="text-xl font-bold mb-4">Jasmine Grande Residence</h3>
-                        <div class="space-y-2 text-sm text-gray-600">
-                            <div class="flex justify-between"><span>3房公寓</span> <span class="font-bold">NT$
-                                    71,347</span></div>
-                            <div class="flex justify-between"><span>2房公寓</span> <span class="font-bold">NT$ 5,716</span>
-                            </div>
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
+                        <p class="text-sm text-gray-500 mb-2">2/13 - 2/18 (6晚)</p>
+                        <h3 class="text-xl font-bold mb-2">Jasmine Grande Residence</h3>
+                        <p class="text-sm text-gray-600 mb-4"><i class="fa-solid fa-location-dot mr-1"></i> 4338 Rama IV Rd, Phra Khanong, Khlong Toei, Bangkok</p>
+                         <p class="text-sm text-gray-600 mb-4"><i class="fa-solid fa-phone mr-1"></i> +66 2 367 2888</p>
+                        <div class="space-y-2 text-sm text-gray-600 border-t pt-3">
+                            <div class="flex justify-between"><span>3房公寓</span> <span class="font-bold">71,347 TWD</span></div>
+                            <div class="flex justify-between"><span>2房公寓</span> <span class="font-bold">5,716 TWD</span></div>
                         </div>
-                    </div>
-                    <div class="p-4 bg-gray-50 border-t text-center">
-                        <a href="https://www.google.com/maps/search/?api=1&query=Jasmine+Grande+Residence+Bangkok"
-                            target="_blank" class="text-thai-gold font-bold hover:underline"><i
-                                class="fa-solid fa-map-location-dot mr-2"></i>查看地圖</a>
                     </div>
                 </div>
 
                 <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col">
                     <div class="h-48 bg-gray-200 relative">
-                        <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=2049&auto=format&fit=crop"
-                            class="w-full h-full object-cover" alt="Airport Hotel">
+                        <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=2049&auto=format&fit=crop" class="w-full h-full object-cover" alt="Airport Hotel">
                         <div class="absolute bottom-0 left-0 bg-black/60 text-white px-4 py-2 w-full">
                             <span class="font-bold">廊曼機場 Moji 飯店</span>
                         </div>
                     </div>
                     <div class="p-6 flex-1">
                         <p class="text-sm text-gray-500 mb-2">2/19 (1晚)</p>
-<<<<<<< HEAD
-                        <h3 class="text-xl font-bold mb-1">Moji Don Mueang Airport Hotel</h3>
-                        <p class="text-xs text-gray-500 mb-4"><i class="fa-solid fa-location-dot mr-1"></i>38/8 Soi Chang Akat Uthit 3</p>
-                        <div class="space-y-2 text-sm text-gray-600">
-                            <div class="flex justify-between"><span>雙床房 x2</span> <span class="font-bold">NT$ 1,942</span></div>
-                            <div class="flex justify-between"><span>家庭房 x1</span> <span class="font-bold">NT$ 2,240</span></div>
+                        <h3 class="text-xl font-bold mb-2">Moji Don Mueang Airport Hotel</h3>
+                        <p class="text-sm text-gray-600 mb-4"><i class="fa-solid fa-location-dot mr-1"></i> 58 Soi Chang Akat Uthit 3, Don Mueang, Bangkok</p>
+                        <p class="text-sm text-gray-600 mb-4"><i class="fa-solid fa-phone mr-1"></i> +66 2 101 1735</p>
+                        <div class="space-y-2 text-sm text-gray-600 border-t pt-3">
+                            <div class="flex justify-between"><span>雙床房 x2</span> <span class="font-bold">1,942 TWD</span></div>
+                            <div class="flex justify-between"><span>家庭房 x1</span> <span class="font-bold">2,240 TWD</span></div>
                         </div>
-=======
-                        <h3 class="text-xl font-bold mb-4">Moji Don Mueang Airport Hotel</h3>
-                        <p class="text-sm text-gray-600">方便隔天凌晨前往機場。靠近廊曼機場。</p>
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
-                    </div>
-                    <div class="p-4 bg-gray-50 border-t text-center">
-                        <a href="https://www.google.com/maps/search/?api=1&query=Moji+Don+Mueang+Airport+Hotel"
-                            target="_blank" class="text-thai-gold font-bold hover:underline"><i
-                                class="fa-solid fa-map-location-dot mr-2"></i>查看地圖</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="info" class="scroll-mt-20">
-            <div class="grid md:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+            <h2 class="text-3xl font-bold text-thai-dark mb-8 text-center">航班資訊</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-red-600 text-white px-3 py-1 text-xs font-bold rounded-bl-lg">Thai Lion Air</div>
                     <div class="flex items-center mb-4 text-thai-dark">
-                        <i class="fa-solid fa-plane-departure text-2xl mr-3"></i>
-                        <h3 class="font-bold text-lg">去程航班</h3>
+                        <i class="fa-solid fa-plane-departure text-2xl mr-3 text-red-600"></i>
+                        <h3 class="font-bold text-lg">去程 SL393</h3>
                     </div>
                     <div class="space-y-2">
-                        <p class="font-bold text-2xl text-thai-gold">SL393</p>
-<<<<<<< HEAD
-                        <p class="text-xs text-gray-500 mb-2">泰國獅航 Thai Lion Air</p>
-                        <div class="flex justify-between text-sm">
-                            <span>2/13 21:55</span>
-                            <span class="text-gray-400">---</span>
-                            <span>2/14 00:25</span>
-=======
-                        <div class="flex justify-between text-sm">
-                            <span>2/13 21:35</span>
-                            <span class="text-gray-400">---</span>
-                            <span>2/14 00:05</span>
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
-                        </div>
-                        <div class="flex justify-between text-xs text-gray-500">
-                            <span>KHH T1</span>
-                            <span>DMK T1</span>
+                        <div class="flex justify-between items-end">
+                            <div class="text-center">
+                                <span class="text-3xl font-bold text-gray-800">21:55</span>
+                                <span class="block text-xs text-gray-500">2/13 (KHH)</span>
+                            </div>
+                            <div class="text-gray-300 mb-2">-------- <i class="fa-solid fa-plane text-xs"></i> --------</div>
+                            <div class="text-center">
+                                <span class="text-3xl font-bold text-gray-800">00:25</span>
+                                <span class="block text-xs text-red-500">+1天 (DMK)</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-red-600 text-white px-3 py-1 text-xs font-bold rounded-bl-lg">Thai Lion Air</div>
                     <div class="flex items-center mb-4 text-thai-dark">
-                        <i class="fa-solid fa-plane-arrival text-2xl mr-3"></i>
-                        <h3 class="font-bold text-lg">回程航班</h3>
+                        <i class="fa-solid fa-plane-arrival text-2xl mr-3 text-red-600"></i>
+                        <h3 class="font-bold text-lg">回程 SL392</h3>
                     </div>
                     <div class="space-y-2">
-                        <p class="font-bold text-2xl text-thai-gold">SL392</p>
-                        <div class="flex justify-between text-sm">
-                            <span>2/20 05:10</span>
-                            <span class="text-gray-400">---</span>
-                            <span>2/20 09:40</span>
-                        </div>
-                        <div class="flex justify-between text-xs text-gray-500">
-                            <span>DMK T1</span>
-                            <span>KHH T1</span>
+                        <div class="flex justify-between items-end">
+                            <div class="text-center">
+                                <span class="text-3xl font-bold text-gray-800">05:10</span>
+                                <span class="block text-xs text-gray-500">2/20 (DMK)</span>
+                            </div>
+                            <div class="text-gray-300 mb-2">-------- <i class="fa-solid fa-plane text-xs"></i> --------</div>
+                            <div class="text-center">
+                                <span class="text-3xl font-bold text-gray-800">09:40</span>
+                                <span class="block text-xs text-gray-500">2/20 (KHH)</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                    <div class="flex items-center mb-4 text-thai-dark">
-                        <i class="fa-solid fa-sim-card text-2xl mr-3"></i>
-                        <h3 class="font-bold text-lg">網卡資訊</h3>
-                    </div>
-                    <ul class="space-y-3 text-sm">
-                        <li class="flex justify-between items-center pb-2 border-b">
-                            <span>DJB esim (7天)</span>
-                            <a href="https://esim.djbcard.com/product/esim-smt-unlimited/" target="_blank"
-                                class="text-blue-500 hover:underline">NT$ 580</a>
-                        </li>
-                        <li class="flex justify-between items-center">
-                            <span>DJB 實體卡 (7天)</span>
-                            <a href="https://djbcard.com/product/southeast-asia-singapore-malaysia/" target="_blank"
-                                class="text-blue-500 hover:underline">NT$ 580</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </section>
 
         <section id="expenses" class="scroll-mt-20">
             <div class="bg-thai-dark text-white rounded-2xl p-8 shadow-xl">
-                <h2 class="text-2xl font-bold mb-6 flex items-center"><i
-                        class="fa-solid fa-wallet mr-3 text-thai-gold"></i>預估費用明細</h2>
-
+                <h2 class="text-2xl font-bold mb-6 flex items-center"><i class="fa-solid fa-file-invoice-dollar mr-3 text-thai-gold"></i>費用分帳明細</h2>
+                
                 <div class="overflow-x-auto">
                     <table class="w-full text-left border-collapse">
                         <thead>
                             <tr class="border-b border-gray-600 text-gray-400 text-sm">
-                                <th class="py-3">項目</th>
-                                <th class="py-3">詳情</th>
-<<<<<<< HEAD
-                                <th class="py-3">付款人</th>
-=======
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
-                                <th class="py-3 text-right">金額 (TWD)</th>
+                                <th class="py-3 px-2">項目</th>
+                                <th class="py-3 px-2">詳細說明</th>
+                                <th class="py-3 px-2 text-right">金額 (TWD)</th>
+                                <th class="py-3 px-2 text-center">付款人</th>
                             </tr>
                         </thead>
                         <tbody class="text-sm">
-<<<<<<< HEAD
-                            <tr class="border-b border-gray-700 bg-gray-800/30">
-                                <td class="py-4">住宿費 (6晚)</td>
-                                <td class="py-4">Jasmine Grande (3房 + 2房)</td>
-                                <td class="py-4 text-blue-300">文</td>
-                                <td class="py-4 text-right">--</td>
+                            <tr class="bg-gray-800/50">
+                                <td class="py-3 px-2">住宿 (Jasmine)</td>
+                                <td class="py-3 px-2">2/13-18 (3房+2房) 共6晚</td>
+                                <td class="py-3 px-2 text-right">77,063</td>
+                                <td class="py-3 px-2 text-center"><span class="bg-blue-600 text-xs px-2 py-1 rounded">文</span></td>
                             </tr>
-                            <tr class="border-b border-gray-700 bg-gray-800/30">
-                                <td class="py-4">機票 (Group A)</td>
-                                <td class="py-4">爸/媽/文/小嬸 (4人) + 行李</td>
-                                <td class="py-4 text-blue-300">文</td>
-                                <td class="py-4 text-right">--</td>
-=======
-                            <tr class="border-b border-gray-700">
-                                <td class="py-4">住宿費</td>
-                                <td class="py-4">Jasmine Grande (3房 + 2房)</td>
-                                <td class="py-4 text-right">77,063</td>
+                            <tr class="bg-gray-800/50">
+                                <td class="py-3 px-2">機票 Group A</td>
+                                <td class="py-3 px-2">爸爸/媽媽/文/小嬸 (含行李)</td>
+                                <td class="py-3 px-2 text-right text-gray-400">?</td>
+                                <td class="py-3 px-2 text-center"><span class="bg-blue-600 text-xs px-2 py-1 rounded">文</span></td>
                             </tr>
-                            <tr class="border-b border-gray-700">
-                                <td class="py-4">機票 (Group A)</td>
-                                <td class="py-4">爸/媽/文/小嬸/小嬸媽 (5人)</td>
-                                <td class="py-4 text-right text-gray-400">待確認</td>
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
+                            
+                            <tr class="border-t border-gray-700">
+                                <td class="py-3 px-2">機票 Group B</td>
+                                <td class="py-3 px-2">YHH/Jolin/Kaylin/William/姑姑</td>
+                                <td class="py-3 px-2 text-right">44,691</td>
+                                <td class="py-3 px-2 text-center"><span class="bg-green-600 text-xs px-2 py-1 rounded">我</span></td>
                             </tr>
-                            <tr class="border-b border-gray-700">
-                                <td class="py-4">機票 (Group B)</td>
-                                <td class="py-4">YHH/jolin/kaylin/william (4人)</td>
-<<<<<<< HEAD
-                                <td class="py-4 text-green-300">我</td>
-=======
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
-                                <td class="py-4 text-right">35,436</td>
+                            <tr>
+                                <td class="py-3 px-2">託運行李</td>
+                                <td class="py-3 px-2">去程2件(1566) + 回程3件(5301)</td>
+                                <td class="py-3 px-2 text-right">6,867</td>
+                                <td class="py-3 px-2 text-center"><span class="bg-green-600 text-xs px-2 py-1 rounded">我</span></td>
                             </tr>
-                            <tr class="border-b border-gray-700">
-                                <td class="py-4">機票 (Group C)</td>
-                                <td class="py-4">姑姑 (1人)</td>
-<<<<<<< HEAD
-                                <td class="py-4 text-green-300">我</td>
-                                <td class="py-4 text-right">9,255</td>
+                            <tr>
+                                <td class="py-3 px-2">接機包車</td>
+                                <td class="py-3 px-2">2/14 00:05 兩台廂型車</td>
+                                <td class="py-3 px-2 text-right">2,236</td>
+                                <td class="py-3 px-2 text-center"><span class="bg-green-600 text-xs px-2 py-1 rounded">我</span></td>
                             </tr>
-                            <tr class="border-b border-gray-700">
-                                <td class="py-4">行李 (去程)</td>
-                                <td class="py-4">2件 20kg</td>
-                                <td class="py-4 text-green-300">我</td>
-                                <td class="py-4 text-right">1,566</td>
+                            <tr>
+                                <td class="py-3 px-2">Day 4 包車</td>
+                                <td class="py-3 px-2">走跳旅遊 (預計)</td>
+                                <td class="py-3 px-2 text-right">6,000</td>
+                                <td class="py-3 px-2 text-center"><span class="bg-green-600 text-xs px-2 py-1 rounded">我</span></td>
                             </tr>
-                            <tr class="border-b border-gray-700">
-                                <td class="py-4">行李 (回程)</td>
-                                <td class="py-4">3件 25kg</td>
-                                <td class="py-4 text-green-300">我</td>
-                                <td class="py-4 text-right">5,301</td>
+                             <tr>
+                                <td class="py-3 px-2">住宿 (Moji)</td>
+                                <td class="py-3 px-2">2/19 雙床x2 + 家庭房x1</td>
+                                <td class="py-3 px-2 text-right">4,182</td>
+                                <td class="py-3 px-2 text-center"><span class="bg-green-600 text-xs px-2 py-1 rounded">我</span></td>
                             </tr>
-                            <tr class="border-b border-gray-700">
-                                <td class="py-4">機場接送</td>
-                                <td class="py-4">2/14 00:05 廂型車 x2</td>
-                                <td class="py-4 text-green-300">我</td>
-                                <td class="py-4 text-right">2,236</td>
-                            </tr>
-                            <tr class="border-b border-gray-700">
-                                <td class="py-4">包車一日遊</td>
-                                <td class="py-4">2/16 走跳旅遊 (預計)</td>
-                                <td class="py-4 text-green-300">我</td>
-                                <td class="py-4 text-right">6,000</td>
-                            </tr>
-                            <tr class="border-b border-gray-700">
-                                <td class="py-4">住宿 (最後1晚)</td>
-                                <td class="py-4">Moji Hotel (2雙床+1家庭)</td>
-                                <td class="py-4 text-green-300">我</td>
-                                <td class="py-4 text-right">4,182</td>
-                            </tr>
-                            <tr class="border-b border-gray-700">
-                                <td class="py-4">網卡</td>
-                                <td class="py-4">預估每人一張 (580 x 9人)</td>
-                                <td class="py-4 text-green-300">我</td>
-                                <td class="py-4 text-right">5,220</td>
-=======
-                                <td class="py-4 text-right">9,255</td>
-                            </tr>
-                            <tr class="border-b border-gray-700">
-                                <td class="py-4">網卡</td>
-                                <td class="py-4">預估每人一張 (580 x 10人)</td>
-                                <td class="py-4 text-right text-gray-400">~5,800</td>
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
+                            <tr>
+                                <td class="py-3 px-2">SIM 卡</td>
+                                <td class="py-3 px-2">預估 9 人份 (580x9)</td>
+                                <td class="py-3 px-2 text-right text-gray-400">~5,220</td>
+                                <td class="py-3 px-2 text-center"><span class="bg-green-600 text-xs px-2 py-1 rounded">我</span></td>
                             </tr>
                         </tbody>
-                        <tfoot>
+                        <tfoot class="border-t-2 border-gray-500">
                             <tr>
-<<<<<<< HEAD
-                                <td colspan="3" class="py-6 text-lg font-bold">我的支付總計 (不含文的部分)</td>
-                                <td class="py-6 text-right text-2xl font-bold text-thai-gold">NT$ 69,196</td>
-=======
-                                <td colspan="2" class="py-6 text-lg font-bold">目前已知總計</td>
-                                <td class="py-6 text-right text-2xl font-bold text-thai-gold">NT$ 121,754 +</td>
->>>>>>> 429eaa71cef3b9316f66d256d5f4f272be0aab45
+                                <td colspan="2" class="py-4 font-bold text-right">"我" 已支付總計：</td>
+                                <td class="py-4 text-right text-xl font-bold text-green-400">69,196 +</td>
+                                <td></td>
                             </tr>
                         </tfoot>
                     </table>
                 </div>
-                <p class="text-xs text-gray-400 mt-4">* 總計不包含未確認之機票款項及當地餐飲交通費。</p>
+                <p class="text-xs text-gray-400 mt-4">* 小嬸媽媽已取消行程。其餘當地花費由公費或個人支付。</p>
             </div>
         </section>
 
@@ -584,5 +433,4 @@
     </footer>
 
 </body>
-
 </html>
